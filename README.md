@@ -1,114 +1,266 @@
-# Warehouse Robot
+# Autonomous Warehouse Robot
 
 ## Overview
 
-Warehouse Robot is an autonomous mobile robot designed and developed for the National Research Centers Robotics Competition.
+This project is an autonomous warehouse robot developed for the Student Research Centers National Competition.
 
-The robot was completely designed and built by our team from the initial concept and mechanical design to hardware implementation, embedded programming, computer vision algorithms, and autonomous control.
+The main objective of this project was to design and implement a robotic platform capable of performing warehouse automation tasks through computer vision, autonomous navigation, and embedded control systems.
 
-The main objective of the project was to develop a robot capable of completing warehouse transportation tasks in the shortest possible time by analyzing the environment, detecting objects, planning movements, and autonomously performing assigned tasks.
-
----
-
-## Competition Task
-
-The robot participated in a warehouse automation challenge where it had to:
-
-- Analyze the competition field after startup
-- Detect the position of colored cylindrical objects using an overhead camera
-- Identify three cylinders with different colors
-- Move each cylinder to its corresponding target area
-- Avoid obstacles and optimize the route
-- Complete the mission in the minimum possible time
-
-The final goal was to achieve the highest performance and shortest completion time.
+The robot integrates image processing algorithms, real-time decision making, and hardware control to detect objects, navigate through the environment, and perform autonomous operations.
 
 ---
 
-## Achievement
+# Competition Achievements
 
-🥈 **2nd Place - National Research Centers Robotics Competition**
+🏆 **1st Place - Provincial Level**
 
-Our team achieved the second place at the national level with a fully self-designed and self-developed robotic system.
+🥈 **2nd Place - National Level**
 
-The complete development process was performed by our team, including:
+🏅 **Certificate of Appreciation from the Minister of Education**
 
-- Mechanical design
-- Robot construction
-- Hardware integration
-- Embedded programming
-- Computer vision development
-- Robot control algorithms
-- Communication system
+This project participated in the Student Research Centers National Competition and achieved outstanding results at both provincial and national levels.
+
+The achievement recognized the design, implementation, and innovative aspects of the autonomous warehouse robotic system.
+
+<p align="center">
+<img src="assets/photo_1.jpg" width="700">
+</p>
+
+<p align="center">
+<img src="assets/photo_2.jpg" width="700">
+</p>
+
+<p align="center">
+<img src="assets/photo_3.jpg" width="700">
+</p>
 
 ---
 
-## System Architecture
+# Project Information
 
-The system consists of two main parts:
+- **Competition:** Student Research Centers National Competition
+- **Rank:** 1st Provincial / 2nd National
+- **Project Type:** Autonomous Mobile Robot
+- **Application:** Warehouse Automation
 
-### 1. Onboard Robot System
+---
 
-The onboard system is responsible for:
+# System Overview
+
+The robot system consists of several main components:
+
+## 1. Perception Layer
+
+Responsible for understanding the environment.
+
+Features:
+
+- Image acquisition
+- Object detection
+- Image processing algorithms
+- Environmental analysis
+
+Technologies:
+
+- Python
+- OpenCV
+- NumPy
+
+
+
+---
+
+## 2. Decision & Control Layer
+
+Responsible for autonomous robot behavior.
+
+Features:
+
+- Processing sensor information
+- Generating movement commands
+- Task execution logic
+- Real-time decision making
+
+
+---
+
+## 3. Hardware Control Layer
+
+Responsible for communication with robot hardware.
+
+Features:
 
 - Motor control
-- Sensor management
-- Robot movement control
-- Executing real-time commands
-- Controlling the physical robot platform
+- Embedded programming
+- Low-level hardware interaction
+- Real-time execution
 
-Implemented using:
-
-- C Programming Language
 
 ---
 
-### 2. Vision and Monitoring System
+# Hardware Platform
 
-The vision and monitoring system is responsible for:
+## Main Components
 
-- Processing camera data
-- Detecting the field environment
-- Detecting colored objects
-- Detecting obstacles
-- Identifying robot position
-- Making navigation decisions
-- Communicating with the robot
+- Embedded controller
+- Motor driver modules
+- DC motors
+- Sensors
+- Robotic chassis
 
-Implemented using:
-
-- Python
-- OpenCV
-- NumPy
 
 ---
 
-## Technologies
+# Software Features
 
-### Programming Languages
+## Computer Vision System
 
-- Python
-- C
+The robot uses computer vision techniques for:
 
-### Computer Vision
-
-- OpenCV
-- NumPy
-
-### Communication
-
-- Bluetooth Protocol
-
-### Main Features
-
-- Autonomous navigation
 - Object detection
-- Color recognition
-- Obstacle detection
-- Camera-based environment analysis
-- Wireless communication
-- Real-time robot control
+- Image processing
+- Environment understanding
+- Target identification
+
 
 ---
 
-## Repository Structure
+## Autonomous Navigation
+
+Implemented capabilities:
+
+- Robot movement control
+- Path following
+- Navigation decision making
+- Obstacle handling
+
+
+---
+
+## Embedded Control
+
+The embedded system provides:
+
+- Motor control
+- Real-time communication
+- Hardware abstraction
+- Robot motion execution
+
+
+---
+
+# Technologies
+
+- Python
+- OpenCV
+- NumPy
+- Embedded C
+- bluetooth
+- Robotics Programming
+- Computer Vision
+- Autonomous Systems
+- Image Processing
+
+
+---
+
+# Project Architecture
+
+             Camera / Sensors
+
+                   |
+                   |
+
+          Computer Vision Module
+
+                   |
+                   |
+
+          Decision Making System
+
+                   |
+                       bluetooth
+                   |
+
+          Robot Control System 
+
+                   |
+                   |
+
+          Motors & Hardware
+
+          
+
+---
+
+# Engineering Challenges
+
+During development, the main challenges included:
+
+- Designing reliable object detection algorithms
+- Processing visual data in real time
+- Integrating software and hardware components
+- Creating stable robot movement control
+- Managing computational limitations
+
+
+---
+
+# Project Images
+
+<p align="center">
+<img src="images/picture1.png" width="800">
+</p>
+
+<p align="center">
+<img src="images/simulation-webots-picture.png" width="800">
+</p>
+
+<p align="center">
+<img src="images/picture2.png" width="800">
+</p>
+
+<p align="center">
+<img src="images/picture3.png" width="800">
+</p>
+
+<p align="center">
+<img src="images/picture4.png" width="800">
+</p>
+
+
+---
+
+# Demo
+
+(Add project demonstration video)
+
+[▶ Watch Demo Video](videos/robot_film.mp4)
+
+
+# Documentation
+
+The complete project proposal and technical documentation are available below:
+
+📄 [Project Proposal](docs/proposal-en.pdf)
+
+
+# Learning Outcomes
+
+This project provided practical experience in:
+
+- Autonomous robotics
+- Computer vision applications
+- Embedded systems
+- Hardware-software integration
+- Real-time robotic control
+- Industrial automation concepts
+
+
+---
+
+# Author
+
+Developed as an award-winning robotics project for the Student Research Centers National Competition.
+
+This project represents practical experience in autonomous systems, computer vision, and robotic automation.
